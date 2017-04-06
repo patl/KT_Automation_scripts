@@ -355,7 +355,7 @@ end
 
 And(/^verify that All Weather tires are displayed in Grid$/) do
   @browser.element(:css, ".category.cat-all-weather").text == "All-weather"
-<<<<<<< HEAD
+
 end
 
 Then(/^user presses on Packages tab from widget$/) do
@@ -508,6 +508,5 @@ And(/^close the replace pop\-up$/) do
   @browser.element(:class, "popup-title").text == "Replace current products in your cart?"
   @browser.element(:link_text, "Yes, Add to cart".upcase).click
 end
-=======
-end
->>>>>>> origin/best-version
+
+
